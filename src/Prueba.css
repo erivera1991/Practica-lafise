@@ -1,0 +1,77 @@
+
+
+
+.menu  {
+    
+    background-color: rgb(10, 59, 10);
+    display: flex; 
+    
+
+   
+}
+.menu ul {
+    margin-left: 50%;
+}
+
+li {
+    list-style: none;
+    float: left;
+   margin-right: 5px;
+   text-align: left;
+   padding:10 px;
+ 
+   
+}
+a{
+    color:white;
+    text-decoration: none;
+    
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    color: white;
+
+}
+button img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.nav2 img{
+    margin-left: 20%;
+     
+}
+
+
+.banner{
+    margin:15%;
+}
+.Container {
+    display: flex;
+    background-color: white;
+
+}
+
+.Container1{
+    background-color: white;
+    
+}
+.Container2{
+    background-color:rgb(245, 242, 242);
+    
+}
+
+.col-6 button {
+    background-color: green;
+    margin:5%;
+    width: 25%;
+
+}
+
+
+   
+
+
