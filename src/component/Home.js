@@ -1,9 +1,9 @@
 import React from "react";
-import './Prueba.css';
-import imagen from './logo.png';
-import busca from './buscador.png';
-import baner from './banner.jpeg';
-import banca from './banca.jpeg'
+import '../style/Prueba.css';
+import imagen from '../Imagenes/logo.png';
+import busca from '../Imagenes/buscador.png';
+import baner from '../Imagenes/banner.jpeg';
+import banca from '../Imagenes/banca.jpeg'
 
 
    function MyApp() {
