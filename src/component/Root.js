@@ -1,21 +1,19 @@
 import React from "react";
 import '../style/Prueba.css';
+
 import imagen from '../Imagenes/logo.png';
 import busca from '../Imagenes/buscador.png';
 import baner from '../Imagenes/banner.jpeg';
-import banca from '../Imagenes/banca.jpeg'
+import banca from '../Imagenes/banca.jpeg';
+import {Link, Form, Outlet} from 'react-router-dom'
 
-
-   function MyApp() {
+   function Root() {
     return (
       <div> 
-
         <nav className="menu">
-        
-
         <ul>
-    <li><a href="#"> Contactanos</a></li>
-    <li><a href="#">Encuentranos</a></li>
+          <li><Link to='Productos'>Productos</Link></li>
+    <li><Link to='encuentranos'>Encuentranos</Link></li>
     <li>   <button> 
       <img src={busca} ></img>
     </button></li>
@@ -43,23 +41,23 @@ import banca from '../Imagenes/banca.jpeg'
           <div className="col-6">
             <h1>Abra su cuenta de Ahorro con Banco LAFISE</h1>
             <h3>Complete sus datos y solicítela fácilmente, le tomará solo 10 minutos ¡Sin filas y sin salir de su casa!</h3>
-            <input type="text" value="Primer Nombre" ></input>
-       <input type="text" value="Segundo Nombre" ></input>
+            <input type="text"  />
+       <input type="text"  />
        <div className="col-6">
-       <input type="text" value="Primer Apellido" ></input>
-       <input type="text" value="Segundo Apellido" ></input>
+       <input type="text"  />
+       <input type="text" />
 
        </div>
 
        <div className="col-6">
          <h6>Email *</h6>
-         <input type="text" value="" ></input>
+         <input type="text"  />
 
        </div>
 
        <div className="col-6">
          <h6>Telefono *</h6>
-         <input type="text" value="" ></input>
+         <input type="text"  />
        </div>
 
 
@@ -104,4 +102,4 @@ import banca from '../Imagenes/banca.jpeg'
 
   }
 
-  export default MyApp;
+  export default Root;
